@@ -8,10 +8,6 @@ public abstract class Package { //the parent class of packages
 	protected int priority; //Priority = class selected when creating package
 	protected SmartPost senderPost;
 	protected SmartPost destination;
-	protected double sendLat;
-	protected double sendLon;
-	protected double endLat;
-	protected double endLon;
 	protected boolean breaksItems;
 	protected double maxDistance;
 	protected double maxSize;

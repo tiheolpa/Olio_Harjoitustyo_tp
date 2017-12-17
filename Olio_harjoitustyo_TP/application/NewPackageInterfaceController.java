@@ -221,7 +221,5 @@ public class NewPackageInterfaceController implements Initializable {
                 UpdateDestList();
             }
         });
-
     }
-
 }

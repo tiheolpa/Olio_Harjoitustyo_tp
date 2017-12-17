@@ -9,6 +9,11 @@ public class PackageC3 extends Package { //Third class package
 		destination = dest;
 		maxDistance = 200;
 		maxSize = 100*100*100;
-		breaksItems = true;
+		if(cont.getMass() <= 5) { //Breaks items unless content mass >= 5kg
+			breaksItems = true;
+		} else {
+			breaksItems = false;
+		}
+
 	}
 }
